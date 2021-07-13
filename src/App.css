@@ -1,0 +1,104 @@
+
+*{ background-color: black;
+    margin: auto;
+}
+.App {
+    display: block;
+    padding-right: 20px;
+
+}
+
+
+input {
+    margin-left: 16rem;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    height: 2rem;
+    margin-top: 10px;
+    width: 60%;
+    margin-bottom: 10px;
+    
+}
+.info{
+    width: 66%;
+    border: solid 2px white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 16rem;
+    border-radius: 10px;
+}
+.info li{
+    color: white;
+    background-color: black;
+    display: block;
+    width: 20rem;
+    list-style: none;
+    margin-top: 10px;
+
+}
+
+
+button{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: rgb(218, 214, 214);
+    border: none;
+    border-radius: 5px;
+    height: 2rem;
+    width: 4rem;
+}
+li{
+    text-align: left;
+    display: block;
+    margin-left: -21px;
+    width: 15.55rem;
+    list-style: none;
+    background-color: white;
+    margin-top: -3px;
+}
+
+ul {
+    margin-bottom: 20px;
+}
+
+
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+img{
+    display: inline-block;
+    border-radius:  5px 5px 0px 0px;
+    margin-left: 18px;
+    
+}
+.page{
+    color: white;
+    font-size: 2rem;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 728px) {
+  
+
+    h1{
+        text-align: center;
+   
+
+    }
+        
+    .form{
+        text-align: center;
+    }
+
+    li{
+        font-family: Helvetica;
+    }
+    }
+
